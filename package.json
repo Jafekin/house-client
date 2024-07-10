@@ -1,0 +1,37 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "SET NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service serve",
+    "build": "SET NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service build"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.24.7",
+    "axios": "^1.7.2",
+    "core-js": "^3.37.1",
+    "element-ui": "^2.6.3",
+    "js-cookie": "^2.2.0",
+    "jwt-decode": "^2.2.0",
+    "moment": "^2.24.0",
+    "vue": "^2.6.6",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.1.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^5.0.8",
+    "@vue/cli-service": "^3.3.1",
+    "vue-template-compiler": "^2.5.21",
+    "webpack": "^4.42.0"
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
