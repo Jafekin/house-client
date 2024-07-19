@@ -15,10 +15,6 @@ import PersonalHouseList from './views/PersonalHouseList.vue'
 import PersonalScheduleList from './views/PersonalScheduleList.vue'
 import PersonalSolveList from './views/PersonalSolveList.vue'
 
-
-
-
-
 Vue.use(Router)
 
 const router = new Router({

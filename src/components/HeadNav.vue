@@ -2,13 +2,13 @@
     <header class="head-nav">
         <el-row>
           <ElCol :span="6" class="logo-container">
-              <img src="../assets/houselogo.png" class="logo" alt="">
+              <img src="../assets/logo.png" class="logo" alt="">
               <span class="title"> 房屋租赁管理系统</span>
           </ElCol>
           <el-col :span="6" class="user">
               <div class="userinfo">
                   <div class="welcome">
-                      <p class="name avatarname"></p>
+                      <p class="name avatarname "></p>
                   </div>
                   <span class="username">
                       <el-dropdown trigger="click" @command="setDialogInfo">
